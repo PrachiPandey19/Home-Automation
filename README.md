@@ -58,10 +58,15 @@ Here is a basic circuit diagram to help you connect the components:
 The Telegram bot understands the following commands:
 
 -**/turnon <device>**: Turns on the specified device.
+
 -**/turnoff <device>**: Turns off the specified device.
+
 -**/getstatus <device>**: Retrieves the current status of a device.
+
 -**/gettemperature**: Retrieves the current temperature and humidity readings from the DHT11 sensor.
+
 -**/getsensorstatus**: Retrieves the current status of the PIR motion sensor.
+
 Replace <device> with the name or identifier of your specific smart device.
 
 You can customize and extend the commands based on your specific smart devices and home automation system.
